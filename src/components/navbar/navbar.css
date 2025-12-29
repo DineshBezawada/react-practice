@@ -1,0 +1,25 @@
+.Navbar {
+  background: yellow;
+  padding: 15px;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+.Navbar nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+}
+.Navbar nav ul li {
+  padding: 10px 24px;
+  list-style-type: none;
+}
+.Navbar nav button {
+  background: #f2ad0c;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  
+}
