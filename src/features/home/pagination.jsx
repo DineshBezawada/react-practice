@@ -4,7 +4,7 @@ const Pagination = () => {
   const [products, setProducts] = useState([]);
   const [filteredProducts, setFilterdProducts] = useState([]);
   const [pageNumber, setPageNumber] = useState(1);
-  const [recordsPerPage, setRecordsPerPage] = useState(10);
+  const [recordsPerPage] = useState(10);
   const totalPages = Math.ceil(products?.length / recordsPerPage);
   const fetchProducts = async () => {
     try {
